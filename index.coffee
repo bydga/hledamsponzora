@@ -6,7 +6,6 @@ request = require "request"
 
 url = "http://www.hledamsponzora.cz/detail.aspx?c="
 
-return console.log process.config.cookie
 run = (next) ->
 	async.each [1..10000], (i, next) ->
 		o =
